@@ -32,7 +32,7 @@
         the DNS's mentioned will be written to /etc/resolv.conf
 <!-- in machine 2-->
 1. cat /proc/sys/net/ipv4/ip_forward
-2. vi /etc/sysctl.comf
+2. vi /etc/sysctl.conf
     - add => net.ipv4.ip_forward=1
 3. iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE     
 
