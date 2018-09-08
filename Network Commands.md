@@ -14,7 +14,8 @@
     - nmcli con up enp0s3
 
 <!-- Statically adding a connection from a new configuration file -->
-5. - cd /etc/sysconfig/network-scripts 
+5. - cd /etc/sysconfig/network-scripts {for RHEL}
+    - cd /etc/network/interfaces {for UBUNTU}
     - make a new config file (let's say for enp0s8)
     - nmcli con delete "Wired Connection 1"
     - ifdown enp0s8

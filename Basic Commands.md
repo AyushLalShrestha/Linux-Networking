@@ -12,6 +12,7 @@
 	netstat -vatn
 
 4. ps aux | grep <process name>
+	- bg, fg, jobs, kill
 
 5. mkfs -t <type> <device>
 	eg. mkfs -t ext4 /dev/sdb3
