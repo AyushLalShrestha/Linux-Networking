@@ -27,3 +27,6 @@
 3. <!-- save the state of the current firewall and restore later-->
     - iptables-save > fwoff
     - iptables-restore < fwoff
+
+<!-- Forward requests from 192.168.99.100:80 to 127.0.0.1:8000 -->
+iptables -t nat -A OUTPUT -p tcp --dport 80 -d 192.168.99.100 -j DNAT --to-destination 127.0.0.1:8000
