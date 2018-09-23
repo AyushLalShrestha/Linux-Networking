@@ -48,3 +48,6 @@ docker run -d --net foodtrucks-net -p 5000:5000 --name foodtrucks-web ayushlalsh
 <!-- see the contents of the file system of the docker containers at -->
 - ls -l /var/lib/docker/aufs/diff
 
+<!-- See how a Dockerfile should be made -->
+    - https://www.howtoforge.com/tutorial/how-to-create-docker-images-with-dockerfile/
+    

@@ -1,3 +1,5 @@
+
+<!-- NMCLI -->
 <!-- Dynamically adding a connection -->
     - nmcli connection show -p enp0s3
     - nmcli connection add con-name name ifname enp0s3 type ethernet ip4 192.168.0.99 gw4 192.168.0.1 
