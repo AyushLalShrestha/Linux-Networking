@@ -3,7 +3,7 @@
 1. Show disk usages
 	df -ah
 
-2. Show disk lists
+2. Show disk usage
 	 du -sh <dir name>
 
 3. Show info about network
@@ -14,7 +14,7 @@
 4. ps aux | grep <process name>
 	- bg, fg, jobs, kill
 
-5. mkfs -t <type> <device>
+5. mkfs -t <type> < ,>
 	eg. mkfs -t ext4 /dev/sdb3
 
 6. mount <device> <mount point>

@@ -24,6 +24,8 @@
     - sudo /etc/init.d/networking restart
 
 
+<!-- Using tcpdump -->
+- sudo tcpdump -i tun10000 dst host 10.52.208.3 and port 5504 -nn -vv -Aqs0
    
 
 
