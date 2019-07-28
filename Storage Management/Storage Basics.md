@@ -25,7 +25,7 @@
     > uuid
     > label
 
-9. <!-- Now, Mounting the file systems to a folder we have created above-->
+9. <!-- Now, Mounting the file system created above to a folder -->
     - mount /dev/sdb6 /mnt
     - ls /mnt
     - umount /mnt
